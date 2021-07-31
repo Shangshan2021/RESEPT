@@ -36,4 +36,5 @@ RESEPT stores the generative results in the following structure:
 *	-The file 'top5_MI_value.csv' records Moran's I value corresponding to segmentation results with top5 Moran's I.
 *	-This Demo takes 30-35 mins to generate all results on a machine with a multi-core CPU.
 *	-The generative visual of gene expression and segmentation map and its evaluation metric of top1 Moran's I are shown below:
+
 ![](./pic/Evaluate_predictive_1.png) ![](./pic/Evaluate_predictive_2.png)

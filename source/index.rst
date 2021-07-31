@@ -26,7 +26,7 @@ Define and visualize pathological architectures of human tissues from spatially 
 
    Getting started
    Data preparation
-   Demo
+   Visualize tissue architecture
    Evaluate tissue architecture with annotations
    predict tissue architecture without annotation
    Customize segmentation model

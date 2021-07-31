@@ -29,4 +29,3 @@ git clone https://github.com/OSU-BMBL/RESEPT
 cd RESEPT
 ```
 
-## 

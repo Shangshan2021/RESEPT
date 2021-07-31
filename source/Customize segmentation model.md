@@ -34,4 +34,5 @@ RESEPT stores the generative results in the following structure:
 *	-The file 'epoch_n.pth' is the customized model.
 *	-This Demo takes about 3 hours to generate the model on a machine with a 2080Ti GPU.
 *	-An example of generative visuals of tissue architectures and its label image are shown below:
+
 ![](./pic/Customize_segmentation_1.png) ![](./pic/Customize_segmentation_2.png)
