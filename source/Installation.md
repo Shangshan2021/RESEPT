@@ -20,7 +20,7 @@ pip install anndata
 pip install mmcv-full  
 ```
 
-This takes 20-25 mins to install all dependencies.
+The above steps take 20-25 mins to install all dependencies.
 
 ### Install RESEPT from GitHub
 

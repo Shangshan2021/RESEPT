@@ -27,10 +27,10 @@ Define and visualize pathological architectures of human tissues from spatially 
    Getting started
    Data preparation
    Visualize tissue architecture
-   Evaluate tissue architecture with annotations
-   predict tissue architecture without annotation
+   Evaluate predictive tissue architectures with annotation
+   Predict tissue architecture without annotation
    Customize segmentation model
-   Segment histological images
+   Segment a histological image
 
 
 .. toctree::

@@ -18,5 +18,3 @@ if you use ```RESEPT```, please cite [our paper](https://www.biorxiv.org/content
 
 **The codes** are available at <https://github.com/OSU-BMBL/RESEPT>
 
-
-

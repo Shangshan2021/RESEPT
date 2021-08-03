@@ -1,14 +1,20 @@
+## System Requirements
+
+### Hardware Requirements
+
+```RESEPT``` was trained on a standard computer with a 64-core CPU, 20G RAM, and a GPU with 11G VRAM. The function of customizing the segmentation model only can run on GPU device now. Other functions for RESEPT need the minimum requirements of a CPU with 8 cores and 8G RAM.
+
 ### Software Requirements
 
 #### OS Requirements
 
-This package is supported for Linux. The package has been tested on the following systems:
+RESEPT can run on Linux. The package has been tested on the following system:
 
 * Linux: Ubuntu 20.04
 
 #### Python Dependencies
 
-``` RESEPT ``` mainly depends on the Python scientific stack.
+``` RESEPT ``` mainly depends on the Python (3.6+) scientific stack.
 
 ```
 numpy 1.18.1
