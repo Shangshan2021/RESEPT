@@ -3,8 +3,8 @@ Getting started
 
 RESEPT: a point-cloud model for histocyte. This is a overview to how to quikly start RESEPT.
 
-`1. Data prepare`_
-**********************
+`1. Data preparation`_
+*************************
 `2. Function 1: Visualize tissue architecture`_
 *****************************************************************
 `3. Function 2: Evaluate predictive tissue architectures with annotation`_
