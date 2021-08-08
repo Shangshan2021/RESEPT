@@ -33,13 +33,13 @@ python test_pipeline.py -expression S10/S10_filtered_feature_bc_matrix.h5  -meta
 
 This demo takes 30-35 mins to generate all the results on the machine with a 64-core CPU.
 
-![](./pic/Predict/Predict_1.png)![](./pic/Predict/segmentation/Predict_segmentation_1.png)  
-![](./pic/Predict/Predict_2.png)![](./pic/Predict/segmentation/Predict_segmentation_2.png)  
-![](./pic/Predict/Predict_3.png)![](./pic/Predict/segmentation/Predict_segmentation_3.png)  
-![](./pic/Predict/Predict_4.png)![](./pic/Predict/segmentation/Predict_segmentation_4.png)  
-![](./pic/Predict/Predict_5.png)![](./pic/Predict/segmentation/Predict_segmentation_5.png)  
-
-![](./pic/Predict/Predict_S.png)
+- ![](./pic/Predict/1.png)![](./pic/Predict/segmentation/1.png)  
+- ![](./pic/Predict/2.png)![](./pic/Predict/segmentation/2.png)  
+- ![](./pic/Predict/3.png)![](./pic/Predict/segmentation/3.png)  
+- ![](./pic/Predict/4.png)![](./pic/Predict/segmentation/4.png)  
+- ![](./pic/Predict/5.png)![](./pic/Predict/segmentation/5.png)  
+ 
+![](./pic/Predict/pre.png)
 
 **Figure 3**| The generated RGB images of tissue architectures and predicted tissue architectures with top-5 Moran’s I, and corresponding Moran’s I value.
  

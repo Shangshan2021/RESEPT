@@ -36,17 +36,13 @@ python evaluation_pipeline.py -expression S10/S10_filtered_feature_bc_matrix.h5 
 This demo takes 30-35 mins to generate all results on the machine with a 64-core CPU.
 
 
-- ![](./pic/Evaluate/Evaluate_1.png)![](./pic/Evaluate/segmentation/Evaluate_segmentation_1.png)  
+- ![](./pic/Evaluate/1.png)![](./pic/Evaluate/segmentation/1.png)  
+- ![](./pic/Evaluate/2.png)![](./pic/Evaluate/segmentation/2.png)  
+- ![](./pic/Evaluate/3.png)![](./pic/Evaluate/segmentation/3.png)  
+- ![](./pic/Evaluate/4.png)![](./pic/Evaluate/segmentation/4.png)  
+- ![](./pic/Evaluate/5.png)![](./pic/Evaluate/segmentation/5.png)  
 
-- ![](./pic/Evaluate/Evaluate_2.png)![](./pic/Evaluate/segmentation/Evaluate_segmentation_2.png)  
-
-- ![](./pic/Evaluate/Evaluate_3.png)![](./pic/Evaluate/segmentation/Evaluate_segmentation_3.png)  
-
-- ![](./pic/Evaluate/Evaluate_4.png)![](./pic/Evaluate/segmentation/Evaluate_segmentation_4.png)  
-
-- ![](./pic/Evaluate/Evaluate_5.png)![](./pic/Evaluate/segmentation/Evaluate_segmentation_5.png)  
-
-![](./pic/Evaluate/Evaluate_S.png)
+![](./pic/Evaluate/elv.png)
 
 **Figure 2**| The generated RGB images of tissue architectures and predicted tissue architectures with top-5 Moran’s I, and evaluation metrics corresponding to the tissue architectures.
 
