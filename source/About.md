@@ -9,10 +9,10 @@ Given inputs as gene expression or RNA velocity, RESEPT learns a three-dimensi
 
 ### RESEPT ’s features
 
-- Converted spatial transcriptomics data as an RGB image describing various spatial contexts together with expression abundance faithfully 
-- Predicted spatial cell types on the RGB image
-- Integrated RNA velocity into image training
-- Recognized the spatial pattern and detected the corresponding active functional regions with a defined panel of gene sets 
+- Converts spatial transcriptomics data as an RGB image describing various spatial contexts together with expression abundance faithfully 
+- Predicts spatial cell types on the RGB image
+- Integrats RNA velocity into image training
+- Recognizes the spatial pattern and detects the corresponding active functional regions with a defined panel of gene sets 
 
 
 ### Built With
