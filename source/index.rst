@@ -26,7 +26,7 @@ Define and visualize pathological architectures of human tissues from spatially 
 
    Getting started
    Data preparation
-   Function 1: Visualize tissue architecture
+   Visualize tissue architecture
    Function 2: Evaluate predictive tissue architectures with annotation
    Function 3: Predict tissue architecture without annotation
    Function 4: Segment a histological image
