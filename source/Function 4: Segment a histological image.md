@@ -51,4 +51,5 @@ python histological_segmentation_pipeline.py -expression ./cancer/Parent_Visium_
 ![](./pic/optical_segmentation/category_3.png) ![](./pic/optical_segmentation/category_4.png)
 ![](./pic/optical_segmentation/category_5.png) ![](./pic/optical_segmentation/category_6.png)
 ![](./pic/optical_segmentation/category_7.png)  
-Figure1: The predicted tissue architectures with top-1 Moran’s I and corresponding histological image segmentation results.
+
+**Figure 1**| The predicted tissue architectures with top-1 Moran’s I and corresponding histological image segmentation results.

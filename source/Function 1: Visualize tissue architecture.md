@@ -33,4 +33,4 @@ python RGB_images_pipeline.py -expression S13/S13_filtered_feature_bc_matrix.h5 
 ![](./pic/Visualize/Visualize_1.png)![](./pic/Visualize/Visualize_2.png)![](./pic/Visualize/Visualize_3.png)
 ![](./pic/Visualize/Visualize_4.png)![](./pic/Visualize/Visualize_5.png)![](./pic/Visualize/Visualize_6.png)  
 
-Figure 1: The examples of generative visuals of tissue architectures
+**Figure 1**| The examples of generative visuals of tissue architectures

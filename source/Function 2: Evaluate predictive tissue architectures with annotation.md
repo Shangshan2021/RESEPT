@@ -50,8 +50,7 @@ RESEPT stores the generative results in the following structure:
 
 - ![](./pic/Evaluate/Evaluate_5.png)![](./pic/Evaluate/segmentation/Evaluate_segmentation_5.png)  
 
-
-Figure 1：The generated RGB images of tissue architectures and predicted tissue architectures with top-5 Moran’s I, and evaluation metrics corresponding to the tissue architectures.
-
 ![](./pic/Evaluate/Evaluate_S.png)
+
+**Figure 1**|The generated RGB images of tissue architectures and predicted tissue architectures with top-5 Moran’s I, and evaluation metrics corresponding to the tissue architectures.
 
