@@ -29,4 +29,4 @@ This demo takes 25-30 mins to generate all results on the machine with a 64-core
 ![](./pic/Visualize/Visualize_1.png)![](./pic/Visualize/Visualize_2.png)![](./pic/Visualize/Visualize_3.png)
 ![](./pic/Visualize/Visualize_4.png)![](./pic/Visualize/Visualize_5.png)![](./pic/Visualize/Visualize_6.png)  
 
-**Figure 1**| The examples of generative visuals of tissue architectures
+**Figure 1**| The examples of generated RGB images of tissue architectures
