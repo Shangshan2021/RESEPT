@@ -19,7 +19,7 @@ RESEPT: a point-cloud model for histocyte. This is a overview to how to quikly s
 ***********************************************************
 
 .. _1. Data prepare: https://resept.readthedocs.io/en/latest/Data%20preparation.html
-.. _2. Visualize tissue architecture: https://resept.readthedocs.io/en/latest/Function%201%3A%20Visualize%20tissue%20architecture.html#function-1-visualize-tissue-architecture
+.. _2. Visualize tissue architecture: https://resept.readthedocs.io/en/latest/Function%201%3A%20Visualize%20tissue%20architecture.html#
 .. _3. Evaluate predictive tissue architectures with annotation: https://resept.readthedocs.io/en/latest/Function%202%3A%20Evaluate%20predictive%20tissue%20architectures%20with%20annotation.html
 .. _4. Predict tissue architecture without annotation: https://resept.readthedocs.io/en/latest/Function%203%3A%20Predict%20tissue%20architecture%20without%20annotation.html
 .. _5. Segment a histological image: https://resept.readthedocs.io/en/latest/Function%204%3A%20Segment%20a%20histological%20image.html
