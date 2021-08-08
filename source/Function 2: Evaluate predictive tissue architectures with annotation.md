@@ -40,15 +40,15 @@ RESEPT stores the generative results in the following structure:
 *	-This Demo takes 30-35 mins to generate all the results on a machine with a 64-core CPU.
 *	-The generative visual of gene expression, segmentation map and its evaluation metric of best result among top5 Moran's I are shown below:
 
-![](./pic/Evaluate/Evaluate_1.png)![](./pic/Evaluate/segmentation/Evaluate_segmentation_1.png)  
+- ![](./pic/Evaluate/Evaluate_1.png)![](./pic/Evaluate/segmentation/Evaluate_segmentation_1.png)  
 
-![](./pic/Evaluate/Evaluate_2.png)![](./pic/Evaluate/segmentation/Evaluate_segmentation_2.png)  
+- ![](./pic/Evaluate/Evaluate_2.png)![](./pic/Evaluate/segmentation/Evaluate_segmentation_2.png)  
 
-![](./pic/Evaluate/Evaluate_3.png)![](./pic/Evaluate/segmentation/Evaluate_segmentation_3.png)  
+- ![](./pic/Evaluate/Evaluate_3.png)![](./pic/Evaluate/segmentation/Evaluate_segmentation_3.png)  
 
-![](./pic/Evaluate/Evaluate_4.png)![](./pic/Evaluate/segmentation/Evaluate_segmentation_4.png)  
+- ![](./pic/Evaluate/Evaluate_4.png)![](./pic/Evaluate/segmentation/Evaluate_segmentation_4.png)  
 
-![](./pic/Evaluate/Evaluate_5.png)![](./pic/Evaluate/segmentation/Evaluate_segmentation_5.png)  
+- ![](./pic/Evaluate/Evaluate_5.png)![](./pic/Evaluate/segmentation/Evaluate_segmentation_5.png)  
 
 
 Figure 1：The generated RGB images of tissue architectures and predicted tissue architectures with top-5 Moran’s I, and evaluation metrics corresponding to the tissue architectures.
