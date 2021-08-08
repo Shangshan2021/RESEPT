@@ -33,8 +33,6 @@ python test_pipeline.py -expression S10/S10_filtered_feature_bc_matrix.h5  -meta
 
 This demo takes 30-35 mins to generate all the results on the machine with a 64-core CPU.
 
-The generated RGB images of tissue architectures and predicted tissue architectures with top-5 Moran’s I, and corresponding Moran’s I value are shown below:
-
 ![](./pic/Predict/Predict_1.png)![](./pic/Predict/segmentation/Predict_segmentation_1.png)  
 ![](./pic/Predict/Predict_2.png)![](./pic/Predict/segmentation/Predict_segmentation_2.png)  
 ![](./pic/Predict/Predict_3.png)![](./pic/Predict/segmentation/Predict_segmentation_3.png)  
@@ -43,5 +41,5 @@ The generated RGB images of tissue architectures and predicted tissue architectu
 
 ![](./pic/Predict/Predict_S.png)
 
-**Figure 1**| The generated RGB images of tissue architectures and predicted tissue architectures with top-5 Moran’s I, and corresponding Moran’s I value.
+**Figure 3**| The generated RGB images of tissue architectures and predicted tissue architectures with top-5 Moran’s I, and corresponding Moran’s I value.
  
