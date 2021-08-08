@@ -41,12 +41,10 @@ python histological_segmentation_pipeline.py -expression ./cancer/Parent_Visium_
 
 This demo takes 30-35 mins to generate all results on the machine with the multi-core CPU.
 
-The predicted tissue architectures with top-1 Moran’s I and corresponding histological image segmentation results are shown below:
-
 ![](./pic/Segment_histological_1.png) ![](./pic/Segment_histological_2.png)
 ![](./pic/optical_segmentation/category_1.png) ![](./pic/optical_segmentation/category_2.png)
 ![](./pic/optical_segmentation/category_3.png) ![](./pic/optical_segmentation/category_4.png)
 ![](./pic/optical_segmentation/category_5.png) ![](./pic/optical_segmentation/category_6.png)
 ![](./pic/optical_segmentation/category_7.png)  
 
-**Figure 1**| The predicted tissue architectures with top-1 Moran’s I and corresponding histological image segmentation results.
+**Figure 4**| The predicted tissue architectures with top-1 Moran’s I and corresponding histological image segmentation results.
