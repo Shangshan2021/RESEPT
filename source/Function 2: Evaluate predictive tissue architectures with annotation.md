@@ -48,11 +48,5 @@ RESEPT stores the generative results in the following structure:
 
 Figure 1：The generated RGB images of tissue architectures and predicted tissue architectures with top-5 Moran’s I, and evaluation metrics corresponding to the tissue architectures.
 
-| name                                    | MI          |
-| --------------------------------------- | ----------- |
-| S10_scGNN_logcpm_PEalpha0.3_zdim3.png   | 0.943219223 |
-| S10_scGNN_logcpm_PEalpha1.0_zdim128.png | 0.926470295 |
-| S10_scGNN_logcpm_PEalpha1.0_zdim32.png  | 0.902737976 |
-| S10_scGNN_logcpm_PEalpha1.5_zdim3.png   | 0.894055343 |
-| S10_scGNN_logcpm_PEalpha0.1_zdim3.png   | 0.887072644 |
+![](./pic/Evaluate/Evaluate_S.png)
 
