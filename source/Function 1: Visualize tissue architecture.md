@@ -1,6 +1,6 @@
-### Visualize tissue architecture 
+### Function 1:Visualize tissue architecture 
 
-Run the following command line to construct RGB images based on gene expression from different embedding parameters. For demonstration, please download the example data from [here](https://bmbl.bmi.osumc.edu/downloadFiles/data_and_model/data_and_model.zip)(/ocean/projects/ccr180012p/shared/Demo/S13) and put the unzip folder 'S13' in the source code folder.
+Run the following command line to construct RGB images based on gene expression from different embedding parameters. For demonstration, please download the example data from [here](https://bmbl.bmi.osumc.edu/downloadFiles/GitHub_files/S13.zip) and put the unzip folder 'S13' in the source code folder.
 
 ```
 wget https://bmbl.bmi.osumc.edu/downloadFiles/GitHub_files/S13.zip 
@@ -30,4 +30,7 @@ python RGB_images_pipeline.py -expression S13/S13_filtered_feature_bc_matrix.h5 
 *	This Demo takes 25-30 mins to generate all results on a machine with 64-core CPU.
 *	An example of generative visuals of tissue architectures is shown below:
 
-![](./pic/Customize_segmentation_1.png)
+![](./pic/Visualize/Visualize_1.png)![](./pic/Visualize/Visualize_2.png)![](./pic/Visualize/Visualize_3.png)
+![](./pic/Visualize/Visualize_4.png)![](./pic/Visualize/Visualize_5.png)![](./pic/Visualize/Visualize_6.png)  
+
+Figure 1: The examples of generative visuals of tissue architectures

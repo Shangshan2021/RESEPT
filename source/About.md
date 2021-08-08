@@ -7,6 +7,14 @@ Given inputs as gene expression or RNA velocity, RESEPT learns a three-dimensi
 ![](./pic/figure.png)
 
 
+### RESEPT ’s features
+
+- Converted spatial transcriptomics data as an RGB image describing various spatial contexts together with expression abundance faithfully 
+- Predicted spatial cell types on the RGB image
+- Integrated RNA velocity into image training
+- Recognized the spatial pattern and detected the corresponding active functional regions with a defined panel of gene sets 
+
+
 ### Built With
 *	[opencv](https://opencv.org/) - The image processing library used
 *	[pytorch](https://pytorch.org/) - The deep learning backend used

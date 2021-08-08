@@ -1,4 +1,4 @@
-### Segment a histological image
+### Function 4: Segment a histological image
 
 ```RESEPT``` is capable of segmenting a histological image according to predicted tissue architectures. It may help pathologists to focus on specific functional zonation. Run the following command line to predict tissue architectures with top-5 Moran's I and segment the histological image accordingly. For demonstration, please download the example data from [here](https://bmbl.bmi.osumc.edu/downloadFiles/GitHub_files/cancer.zip), and the pre-trained model from [here](https://bmbl.bmi.osumc.edu/downloadFiles/GitHub_files/model_cancer.zip) Then put unzip folders 'cancer' and 'model_cancer' in the source code folder.
 
@@ -50,4 +50,5 @@ python histological_segmentation_pipeline.py -expression ./cancer/Parent_Visium_
 ![](./pic/optical_segmentation/category_1.png) ![](./pic/optical_segmentation/category_2.png)
 ![](./pic/optical_segmentation/category_3.png) ![](./pic/optical_segmentation/category_4.png)
 ![](./pic/optical_segmentation/category_5.png) ![](./pic/optical_segmentation/category_6.png)
-![](./pic/optical_segmentation/category_7.png) 
+![](./pic/optical_segmentation/category_7.png)  
+Figure1: The predicted tissue architectures with top-1 Moran’s I and corresponding histological image segmentation results.

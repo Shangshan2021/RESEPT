@@ -1,4 +1,4 @@
-### Predict tissue architecture without annotation
+### Function 3: Predict tissue architecture without annotation
 
 Run the following command line to generate RGB images based on gene expression from different embedding parameters and predict tissue architectures with top-5 Moran's I. For demonstration, please download the example data from [here](https://bmbl.bmi.osumc.edu/downloadFiles/GitHub_files/S13.zip) and the pre-trained model from [here](https://bmbl.bmi.osumc.edu/downloadFiles/GitHub_files/model_S13.zip). Then put unzip folders 'S13' and 'model_S13' in the source code folder.
 
@@ -40,4 +40,18 @@ RESEPT stores the generative results in the following structure:
 *	-This demo takes 30-35 mins to generate all the results on the machine with a 64-core CPU.
 *	-The generative visual of gene expression and segmentation map and its evaluation metric of top1 Moran's I are shown below:
 
-![](./pic/Evaluate_predictive_1.png) ![](./pic/Evaluate_predictive_2.png)
+![](./pic/Predict/Predict_1.png)![](./pic/Predict/segmentation/Predict_segmentation_1.png)  
+![](./pic/Predict/Predict_2.png)![](./pic/Predict/segmentation/Predict_segmentation_2.png)  
+![](./pic/Predict/Predict_3.png)![](./pic/Predict/segmentation/Predict_segmentation_3.png)  
+![](./pic/Predict/Predict_4.png)![](./pic/Predict/segmentation/Predict_segmentation_4.png)  
+![](./pic/Predict/Predict_5.png)![](./pic/Predict/segmentation/Predict_segmentation_5.png)  
+
+Figure1:The generated RGB images of tissue architectures and predicted tissue architectures with top-5 Moran’s I, and corresponding Moran’s I value.
+
+| Sequence | MI          |
+| -------- | ----------- |
+| 1        | 0.943219223 |
+| 2        | 0.926470295 |
+| 3        | 0.902737976 |
+| 4        | 0.894055343 |
+| 5        | 0.887072644 |

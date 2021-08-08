@@ -1,4 +1,4 @@
-### Evaluate predictive tissue architectures with annotation
+### Function 2: Evaluate predictive tissue architectures with annotation
 
 Run the following command line to construct RGB images based on gene expression from different embedding parameters, segment the constructed RGB images to tissue architectures with top5 Moran's I, and evaluate the tissue architectures (e.g., ARI). For demonstration, please download the example data from [here](https://bmbl.bmi.osumc.edu/downloadFiles/GitHub_files/S13.zip) and the pre-trained model from [here](https://bmbl.bmi.osumc.edu/downloadFiles/GitHub_files/model_S13.zip). Then put unzip folders 'S13' and 'model_S13' in the source code folder.
 
@@ -40,4 +40,18 @@ RESEPT stores the generative results in the following structure:
 *	-This Demo takes 30-35 mins to generate all the results on a machine with a 64-core CPU.
 *	-The generative visual of gene expression, segmentation map and its evaluation metric of best result among top5 Moran's I are shown below:
 
-![](./pic/Evaluate_predictive_1.png) ![](./pic/Evaluate_predictive_2.png)
+![](./pic/Evaluate/Evaluate_1.png)![](./pic/Evaluate/segmentation/Evaluate_segmentation_1.png)  
+![](./pic/Evaluate/Evaluate_2.png)![](./pic/Evaluate/segmentation/Evaluate_segmentation_2.png)  
+![](./pic/Evaluate/Evaluate_3.png)![](./pic/Evaluate/segmentation/Evaluate_segmentation_3.png)  
+![](./pic/Evaluate/Evaluate_4.png)![](./pic/Evaluate/segmentation/Evaluate_segmentation_4.png)  
+![](./pic/Evaluate/Evaluate_5.png)![](./pic/Evaluate/segmentation/Evaluate_segmentation_5.png)  
+
+Figure 1：The generated RGB images of tissue architectures and predicted tissue architectures with top-5 Moran’s I, and evaluation metrics corresponding to the tissue architectures.
+
+| Sequence | ARI         | AMI         | FMI         | RI          |
+| -------- | ----------- | ----------- | ----------- | ----------- |
+| 1        | 0.542276756 | 0.541727556 | 0.703872572 | 0.791088408 |
+| 2        | 0.850555888 | 0.745722745 | 0.907599447 | 0.929698099 |
+| 3        | 0.829344383 | 0.72051837  | 0.894083895 | 0.920006523 |
+| 4        | 0.55496032  | 0.550503963 | 0.712729736 | 0.79659079  |
+| 5        | 0.846983631 | 0.745413983 | 0.905468204 | 0.927927252 |
