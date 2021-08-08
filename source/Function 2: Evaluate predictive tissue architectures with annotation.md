@@ -49,5 +49,5 @@ The generated RGB images of tissue architectures and predicted tissue architectu
 
 ![](./pic/Evaluate/Evaluate_S.png)
 
-**Figure 1**|The generated RGB images of tissue architectures and predicted tissue architectures with top-5 Moran’s I, and evaluation metrics corresponding to the tissue architectures.
+**Figure 1**| The generated RGB images of tissue architectures and predicted tissue architectures with top-5 Moran’s I, and evaluation metrics corresponding to the tissue architectures.
 
