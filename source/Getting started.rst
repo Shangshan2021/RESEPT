@@ -1,7 +1,7 @@
 Getting started
 ---------------
 
-RESEPT: a point-cloud model for histocyte. This is a overview to how to quikly start RESEPT.
+RESEPT: a deep-learning framework for characterizing and visualizing tissue architecture from spatially resolved transcriptomics. This is a overview to how to quikly start RESEPT.
 
 `1. Data preparation`_
 *************************
