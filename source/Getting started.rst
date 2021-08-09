@@ -19,7 +19,7 @@ RESEPT: a deep-learning framework for characterizing and visualizing tissue arch
 ***********************************************************
 
 
-.. _1. Data prepare: https://resept.readthedocs.io/en/latest/Data%20prepare.html
+.. _1. Data preparation: https://resept.readthedocs.io/en/latest/Data%20preparation.html
 .. _2. Visualize tissue architecture: https://resept.readthedocs.io/en/latest/Visualize%20tissue%20architecture.html
 .. _3. Evaluate predictive tissue architectures with annotation: https://resept.readthedocs.io/en/latest/Function%202%3A%20Evaluate%20predictive%20tissue%20architectures%20with%20annotation.html
 .. _4. Predict tissue architecture without annotation: https://resept.readthedocs.io/en/latest/Function%203%3A%20Predict%20tissue%20architecture%20without%20annotation.html
