@@ -6,13 +6,14 @@ wget https://bmbl.bmi.osumc.edu/downloadFiles/GitHub_files/cancer.zip
 wget https://bmbl.bmi.osumc.edu/downloadFiles/GitHub_files/model_cancer.zip
 unzip cancer.zip
 unzip model_cancer.zip
-python histological_segmentation_pipeline.py -expression ./cancer/Parent_Visium_Human_Glioblas_filtered_feature_bc_matrix.h5 -meta ./cancer/spatial/tissue_positions_list.csv -scaler ./cancer/spatial/scalefactors_json.json -histological ./cancer/Parent_Visium_Human_Glioblast.tif -output Demo_result_HistoImage -model ./model_cancer/cancer_model.pth -embedding spaGCN -transform logcpm -device cpu
+python histological_segmentation_pipeline.py -expression ./cancer/Parent_Visium_Human_Glioblas_filtered_feature_bc_matrix.h5 -meta ./cancer/spatial/tissue_positions_list.csv -scaler ./cancer/spatial/scalefactors_json.json -k 7 -model ./model_cancer/cancer_model.pth -histological ./cancer/Parent_Visium_Human_Glioblast.tif -output Demo_result_HistoImage -embedding spaGCN -transform logcpm -device cpu
 ```
 
 #### Command Line Arguments:
 *	-expression file path for raw gene expression data. [type: str]
 *	-meta file path for spatial meta data recording tissue positions. [type: str]
 *	-scaler file path for scale factors. [type: str]
+*	-k the number of tissue architectures. [type: int] [default: 7]
 *	-model file path for pre-trained model. [type: str]
 *	-histological file path for the corresponding histological image.[type: str]
 *	-output output root folder. [type: str]
@@ -47,4 +48,4 @@ This demo takes 30-35 mins to generate all results on the machine with the multi
 ![](./pic/optical_segmentation/category_5.png) ![](./pic/optical_segmentation/category_6.png)
 ![](./pic/optical_segmentation/category_7.png)  
 
-**Figure 4**| The predicted tissue architectures with top-1 Moran’s I and corresponding histological image segmentation results.
+**Figure 8**| The predicted tissue architectures with top-1 Moran’s I and corresponding histological image segmentation results.
