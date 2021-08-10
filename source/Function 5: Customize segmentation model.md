@@ -32,5 +32,4 @@ python training_pipeline.py -data_folder training_data_folder -output Demo_resul
 This demo takes about 3-5 hours to generate the model on the machine with 11G VRAM GPU.
 
 .. note::
-
    This function requires a GPU with minimal 11G VRAM.
