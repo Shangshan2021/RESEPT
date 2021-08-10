@@ -5,13 +5,14 @@ wget https://bmbl.bmi.osumc.edu/downloadFiles/GitHub_files/S10.zip
 wget https://bmbl.bmi.osumc.edu/downloadFiles/GitHub_files/model_S10.zip 
 unzip model_S10.zip
 unzip S10.zip
-python test_pipeline.py -expression S10/S10_filtered_feature_bc_matrix.h5  -meta S10/spatial/tissue_positions_list.csv  -scaler S10/spatial/scalefactors_json.json -output Demo_result_tissue_architecture  -embedding scGNN  -transform logcpm -model model_S10/S10_scGNN.pth -device cpu
+python test_pipeline.py -expression S10/S10_filtered_feature_bc_matrix.h5  -meta S10/spatial/tissue_positions_list.csv  -scaler S10/spatial/scalefactors_json.json -k 7 -model model_S10/S10_scGNN.pth -output Demo_result_tissue_architecture  -embedding scGNN  -transform logcpm -device cpu
 ```
 
 #### Command Line Arguments:
 *	-expression file path for raw gene expression data. [type: str]
 *	-meta file path for spatial meta data recording tissue positions. [type: str]
 *	-scaler file path for scale factors. [type: str]
+*	-k the number of tissue architectures. [type: int] [default: 7]
 *	-model file path for pre-trained model. [type: str]
 *	-output output root folder. [type: str]
 *	-embedding embedding method in use: scGNN or spaGCN. [type: str] [default: scGNN]
