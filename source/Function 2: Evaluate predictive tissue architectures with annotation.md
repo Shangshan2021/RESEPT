@@ -44,5 +44,22 @@ This demo takes 30-35 mins to generate all results on the machine with a 64-core
 
 ![](./pic/Evaluate/elv.png)
 
-**Figure 2**| The generated RGB images of tissue architectures and predicted tissue architectures with top-5 Moran’s I, and evaluation metrics corresponding to the tissue architectures.
+**Figure 2**| The generated RGB images of tissue architectures and predicted tissue architectures with top-5 Moran’s I, and evaluation metrics corresponding to the tissue architectures (k=7).
 
+
+- ![](./pic/Evaluate/k=5/images/1.png)![](./pic/Evaluate/k=5/1.png)  
+- ![](./pic/Evaluate/k=5/images/2.png)![](./pic/Evaluate/k=5/2.png)
+- ![](./pic/Evaluate/k=5/images/3.png)![](./pic/Evaluate/k=5/3.png)
+- ![](./pic/Evaluate/k=5/images/4.png)![](./pic/Evaluate/k=5/4.png)
+- ![](./pic/Evaluate/k=5/images/5.png)![](./pic/Evaluate/k=5/5.png)
+
+**Figure 3**| The generated RGB images of tissue architectures and predicted tissue architectures with top-5 Moran’s I (k=5).
+
+
+- ![](./pic/Evaluate/k=8/images/1.png)![](./pic/Evaluate/k=8/1.png)  
+- ![](./pic/Evaluate/k=8/images/2.png)![](./pic/Evaluate/k=8/2.png) 
+- ![](./pic/Evaluate/k=8/images/3.png)![](./pic/Evaluate/k=8/3.png) 
+- ![](./pic/Evaluate/k=8/images/4.png)![](./pic/Evaluate/k=8/4.png) 
+- ![](./pic/Evaluate/k=8/images/5.png)![](./pic/Evaluate/k=8/5.png) 
+
+**Figure 4**| The generated RGB images of tissue architectures and predicted tissue architectures with top-5 Moran’s I (k=8).
