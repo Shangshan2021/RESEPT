@@ -13,11 +13,11 @@ python histological_segmentation_pipeline.py -expression ./cancer/Parent_Visium_
 *	-expression file path for raw gene expression data. [type: str]
 *	-meta file path for spatial meta data recording tissue positions. [type: str]
 *	-scaler file path for scale factors. [type: str]
-*	-k the number of tissue architectures. [type: int] [default: 7]
+*	-k the number of tissue architectures(setting -1 will recommend a K for you). [type: int] [default: 7]
 *	-model file path for pre-trained model. [type: str]
 *	-histological file path for the corresponding histological image.[type: str]
 *	-output output root folder. [type: str]
-*	-embedding embedding method in use: scGNN or spaGCN. [type: str] [default: spaGCN]
+*	-embedding embedding method in use: scGNN, spaGCN, UMAP or SEDR. [type: str] [default: spaGCN]
 *	-transform data pre-transform method: log, logcpm or None. [type: str] [default: logcpm]
 *	-device cpu/gpu device option: cpu or gpu. [type: str] [default: cpu]
 #### Results
