@@ -11,7 +11,7 @@ python RGB_images_pipeline.py -expression S10/S10_filtered_feature_bc_matrix.h5 
 *	-meta file path for spatial meta data recording tissue positions. [type: str]
 *	-scaler file path for scale factors. [type: str]
 *	-output output root folder. [type: str]
-*	-embedding embedding method in use: scGNN or spaGCN. [type: str] [default: scGNN]
+*	-embedding embedding method in use: scGNN, spaGCN, UMAP or SEDR. [type: str] [default: scGNN]
 *	-transform data pre-transform method: log, logcpm or None. [type: str] [default: logcpm]
 
 
