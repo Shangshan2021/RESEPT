@@ -17,7 +17,7 @@ Command Line Arguments:
 * 	-data_folder a folder provides all training samples. The data including label file of each sample should follow our pre-defined schema in a sub-folder under this folder. [type: str]
 * 	-model file path for pre-trained model file. [type: str]
 * 	-output output root folder. [type: str]
-* 	-embedding embedding method in use: scGNN or spaGCN. [type: str] [default: scGNN]
+* 	-embedding embedding method in use: scGNN, spaGCN, UMAP or SEDR. [type: str] [default: scGNN]
 * 	-transform data pre-transform method: log, logcpm or None. [type: str] [default: logcpm]
 
 Results
