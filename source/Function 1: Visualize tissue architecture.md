@@ -1,9 +1,9 @@
 ### Function 1: visualize tissue architecture 
-Run the following command line to construct RGB images based on gene expression from different embedding parameters. For demonstration, please download the example data from [here](https://bmbl.bmi.osumc.edu/downloadFiles/GitHub_files/S10.zip) and put the unzip folder 'S10' in the source code folder.
+Run the following command line to construct RGB images based on gene expression from different embedding parameters. For demonstration, please download the example data from [here](https://bmbl.bmi.osumc.edu/downloadFiles/GitHub_files/151669.zip) and put the unzip folder '151669' in the source code folder.
 ```
-wget https://bmbl.bmi.osumc.edu/downloadFiles/GitHub_files/S10.zip 
-unzip S10.zip
-python RGB_images_pipeline.py -expression S10/S10_filtered_feature_bc_matrix.h5  -meta S10/spatial/tissue_positions_list.csv  -scaler S10/spatial/scalefactors_json.json -output Demo_result  -embedding scGNN  -transform logcpm 
+wget https://bmbl.bmi.osumc.edu/downloadFiles/GitHub_files/151669.zip 
+unzip 151669.zip
+python RGB_images_pipeline.py -expression 151669/151669_filtered_feature_bc_matrix.h5  -meta 151669/spatial/tissue_positions_list.csv  -scaler 151669/spatial/scalefactors_json.json -output Demo_result  -embedding scGNN  -transform logcpm 
 ```
 
 #### Command Line Arguments:
