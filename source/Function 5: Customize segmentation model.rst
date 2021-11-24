@@ -1,15 +1,15 @@
 Function 5: Customize segmentation model 
 ============================================================
 
-``RESEPT`` supports fine-tuning our segmentation model by using users' 10x Visium data. Organize all samples and their annotations according to our pre-defined data schema and download our pre-trained model from `link1 <https://bmbl.bmi.osumc.edu/downloadFiles/GitHub_files/model_S10.zip>`_ as a training start point. Each sample for the training model should be placed in an individual folder with a specific format (the folder structure can be found `link2 <https://github.com/coffee19850519/single_cell_spatial_image#data-structure>`_). Then gather all the individual folders into one main folder (e.g., named “training_data_folder”).  For demonstration, download the example training data from `link3 <https://bmbl.bmi.osumc.edu/downloadFiles/GitHub_files/training_data_folder.zip>`_, and then run the following command line to generate the RGB images of your own data and customized model.
+``RESEPT`` supports fine-tuning our segmentation model by using users' 10x Visium data. Organize all samples and their annotations according to our pre-defined data schema and download our pre-trained model from `here <https://bmbl.bmi.osumc.edu/downloadFiles/GitHub_files/model_151669.zip>`_ as a training start point. Each sample for the training model should be placed in an individual folder with a specific format (the folder structure can be found `here <https://github.com/coffee19850519/single_cell_spatial_image#data-structure>`_). Then gather all the individual folders into one main folder (e.g., named “training_data_folder”).  For demonstration, download the example training data from `here <https://bmbl.bmi.osumc.edu/downloadFiles/GitHub_files/training_data_folder.zip>`_, and then run the following command line to generate the RGB images of your own data and customized model.
 
 .. code-block:: python
 
-	wget https://bmbl.bmi.osumc.edu/downloadFiles/GitHub_files/model_S10.zip
+	wget https://bmbl.bmi.osumc.edu/downloadFiles/GitHub_files/model_151669.zip
 	wget https://bmbl.bmi.osumc.edu/downloadFiles/GitHub_files/training_data_folder.zip
-	unzip model_S10.zip
+	unzip model_151669.zip
 	unzip training_data_folder.zip
-	python training_pipeline.py -data_folder training_data_folder -output Demo_result_model -embedding scGNN  -transform logcpm -model model_S10/S10_scGNN.pth
+	python training_pipeline.py -data_folder training_data_folder -output Demo_result_model -embedding scGNN  -transform logcpm -model model_151669/151669_scGNN.pth
 
 
 Command Line Arguments:
