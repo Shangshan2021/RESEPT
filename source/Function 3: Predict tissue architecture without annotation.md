@@ -1,11 +1,11 @@
 ### Function 3: predict tissue architecture without annotation
-Run the following command line to generate RGB images based on gene expression from different embedding parameters and predict tissue architectures with top-5 Moran's I. For demonstration, please download the example data from [here](https://bmbl.bmi.osumc.edu/downloadFiles/GitHub_files/S10.zip) and the pre-trained model from [here](https://bmbl.bmi.osumc.edu/downloadFiles/GitHub_files/model_S10.zip). Then put unzip folders 'S10' and 'model_S10' in the source code folder.
+Run the following command line to generate RGB images based on gene expression from different embedding parameters and predict tissue architectures with top-5 Moran's I. For demonstration, please download the example data from [here](https://bmbl.bmi.osumc.edu/downloadFiles/GitHub_files/151669.zip) and the pre-trained model from [here](https://bmbl.bmi.osumc.edu/downloadFiles/GitHub_files/model_151669.zip). Then put unzip folders '151669' and '151669' in the source code folder.
 ```
-wget https://bmbl.bmi.osumc.edu/downloadFiles/GitHub_files/S10.zip 
-wget https://bmbl.bmi.osumc.edu/downloadFiles/GitHub_files/model_S10.zip 
-unzip model_S10.zip
-unzip S10.zip
-python test_pipeline.py -expression S10/S10_filtered_feature_bc_matrix.h5  -meta S10/spatial/tissue_positions_list.csv  -scaler S10/spatial/scalefactors_json.json -k 7 -model model_S10/S10_scGNN.pth -output Demo_result_tissue_architecture  -embedding scGNN  -transform logcpm -device cpu
+wget https://bmbl.bmi.osumc.edu/downloadFiles/GitHub_files/151669.zip 
+wget https://bmbl.bmi.osumc.edu/downloadFiles/GitHub_files/model_151669.zip 
+unzip model_151669.zip
+unzip 151669.zip
+python test_pipeline.py -expression 151669/151669_filtered_feature_bc_matrix.h5  -meta 151669/spatial/tissue_positions_list.csv  -scaler 151669/spatial/scalefactors_json.json -k 7 -model model_151669/151669_scGNN.pth -output Demo_result_tissue_architecture  -embedding scGNN  -transform logcpm -device cpu
 ```
 
 #### Command Line Arguments:
